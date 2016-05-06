@@ -11,12 +11,13 @@ p {
 	font-size: 10pt;
 }
 
-h1 {
+
+.title > a {
 	color: #000 !important;
 	text-decoration: none !important;
 }
 
-h1:hover {
+.title > a:hover {
 	color: #000 !important;
 	text-decoration: none !important
 }
@@ -40,4 +41,8 @@ h1:hover {
 	margin-left:10%;
 	min-height: 5vh;
 	width:60%;
+}
+
+.main {
+	margin-left:5%;
 }
