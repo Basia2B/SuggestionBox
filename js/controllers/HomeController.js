@@ -1,6 +1,5 @@
 
 app.controller('HomeController', ['$scope', 'suggestions', function($scope, suggestions){
-	console.log('started');
 	$scope.helloWorld = "Hello, AngularJS!";
 	$scope.posts = suggestions.posts;
 	$scope.comments = suggestions.posts.comments;
